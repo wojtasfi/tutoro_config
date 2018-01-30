@@ -22,4 +22,5 @@ logging.level.com.netflix: "WARN"
 logging.level.org.springframework.web: "WARN"
 logging.level.com.thoughtmechanix: "DEBUG"
 
-management.security.enabled: false
+management.security.enabled=true
+security.basic.enabled=true
