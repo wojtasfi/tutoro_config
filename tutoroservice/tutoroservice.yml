@@ -21,5 +21,3 @@ spring.jms.pub-sub-domain: "true"
 logging.level.com.netflix: "WARN"
 logging.level.org.springframework.web: "WARN"
 logging.level.com.thoughtmechanix: "DEBUG"
-
-management.security.enabled: false
