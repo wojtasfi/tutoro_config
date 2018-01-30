@@ -1,23 +1,35 @@
 #Data
-spring.jpa.database: "POSTGRESQL"
-spring.datasource.platform: "postgres"
-spring.jpa.show-sql: "true"
-spring.database.driverClassName: "org.postgresql.Driver"
-spring.datasource.url: "jdbc:postgresql://database:5432/tutor"
-spring.datasource.driver-class-name: "org.postgresql.Driver"
-spring.datasource.username: "tutoro"
-spring.datasource.password: "tutor"
-spring.datasource.testWhileIdle: "true"
-spring.datasource.validationQuery: "SELECT 1"
-spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+#spring.jpa.database: "POSTGRESQL"
+#spring.datasource.platform: "postgres"
+#spring.jpa.show-sql: "true"
+#spring.database.driverClassName: "org.postgresql.Driver"
+#spring.datasource.url: "jdbc:postgresql://database:5432/tutor"
+#spring.datasource.driver-class-name: "org.postgresql.Driver"
+#spring.datasource.username: "tutoro"
+#spring.datasource.password: "tutor"
+#spring.datasource.testWhileIdle: "true"
+#spring.datasource.validationQuery: "SELECT 1"
+#spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+
+spring.jpa:
+  database: POSTGRESQL
+  hibernate.ddl-auto: create-drop
+  show-sql: true
+
+spring.datasource:
+  platform: postgres
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/tutor
+  username: tutoro
+  password: tutor
 
 #ActiveMq
-spring.activemq.broker-url: "tcp://localhost:61616"
-spring.activemq.user: "admin"
-spring.activemq.password: "admin"
-spring.jms.pub-sub-domain: "true"
-
-#Setting logging levels
-logging.level.com.netflix: "WARN"
-logging.level.org.springframework.web: "WARN"
-logging.level.com.thoughtmechanix: "DEBUG"
+#spring.activemq.broker-url: "tcp://localhost:61616"
+#spring.activemq.user: "admin"
+#spring.activemq.password: "admin"
+#spring.jms.pub-sub-domain: "true"
+#
+##Setting logging levels
+#logging.level.com.netflix: "WARN"
+#logging.level.org.springframework.web: "WARN"
+#logging.level.com.thoughtmechanix: "DEBUG"
