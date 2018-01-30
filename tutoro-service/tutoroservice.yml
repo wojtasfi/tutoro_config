@@ -1,10 +1,14 @@
 #Data
-spring.datasource.url: "jdbc:postgresql://database:5432/tutor"
-spring.datasource.username: "tutoro"
-spring.datasource.password: "tutor"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform: "postgres"
-spring.datasource.driver-class-name: "com.postgresql.Driver"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://database:5432/tutor"
+spring.datasource.driver-class-name: "org.postgresql.Driver"
+spring.datasource.username: "tutoro"
+spring.datasource.password: "tutor"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 
 #ActiveMq
