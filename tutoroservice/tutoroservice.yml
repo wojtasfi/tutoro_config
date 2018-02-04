@@ -17,4 +17,4 @@ logging.level.com.netflix: "WARN"
 logging.level.org.springframework.web: "WARN"
 logging.level.com.thoughtmechanix: "DEBUG"
 
-kafka.bootstrapAddress: "localhost:9092"
+kafka.bootstrapAddress: "kafkaserver:9092"
