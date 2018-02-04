@@ -8,7 +8,7 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialec
 spring.jpa.hibernate.ddl-auto: "create"
 spring.jms.pub-sub-domain: "true"
 spring.data.neo4j.password: "neo4j"
-spring.data.neo4j.uri: "http://localhost:7474"
+spring.data.neo4j.uri: "http://neo4j:7474"
 spring.data.neo4j.username: "neo4j"
 
 kafka.bootstrapAddress: "kafkaserver:9092"
