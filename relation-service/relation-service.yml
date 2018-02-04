@@ -5,7 +5,7 @@ spring.datasource.username: "tutoro"
 spring.datasource.password: "tutor"
 spring.datasource.driver-class-name: "org.postgresql.Driver"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
-spring.data.neo4j.uri: "http://neo4j:7687"
+spring.data.neo4j.uri: "http://neo4j:7474"
 spring.data.neo4j.username: "neo4j"
 spring.data.neo4j.password: "POLlop123"
 
