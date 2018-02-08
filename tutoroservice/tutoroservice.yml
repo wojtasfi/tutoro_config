@@ -16,3 +16,9 @@ logging.level.org.springframework.web: "WARN"
 logging.level.com.thoughtmechanix: "DEBUG"
 
 kafka.bootstrapAddress: "kafkaserver:9092"
+
+security:
+  oauth2:
+   resource:
+      userInfoUri: "http://authentication-service:8901/auth/user"
+signing.key: "345345fsdfsf5345"
