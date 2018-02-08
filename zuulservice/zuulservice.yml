@@ -1,6 +1,6 @@
 zuul.ignored-services: "*"
 zuul.prefix:  /api
-zuul.routes.organizationservice: /tutoroservice/**
+zuul.routes.tutoroservice: /tutoroservice/**
 zuul.routes.authenticationservice: /auth/**
 #zuul.routes.licensestatic.path: /licensestatic/**
 #zuul.routes.licensestatic.url:  http://licenseservice-static:8081
