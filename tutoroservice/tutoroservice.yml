@@ -22,3 +22,6 @@ security:
    resource:
       userInfoUri: "http://authentication-service:8901/auth/user"
 signing.key: "345345fsdfsf5345"
+
+server:
+  contextPath:   /tutoroservice
