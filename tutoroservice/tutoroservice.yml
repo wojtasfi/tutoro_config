@@ -1,4 +1,4 @@
-spring.application.name: tutoroservice
+spring.application.name: "tutoroservice"
 #Data
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform: "postgres"
