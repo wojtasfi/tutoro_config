@@ -11,3 +11,4 @@ spring.data.neo4j.password: "POLlop123"
 
 
 kafka.bootstrapAddress: "kafkaserver:9092"
+signing.key: "345345fsdfsf5345"
