@@ -1,11 +1,4 @@
 spring.application.name: "Tutoro Relations"
-spring.datasource.url: "jdbc:postgresql://database2:5432/tutoro_relations?createDatabaseIfNotExist=true"
-
-spring.datasource.username: "tutoro"
-spring.datasource.password: "tutor"
-spring.datasource.driver-class-name: "org.postgresql.Driver"
-spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
-spring.jpa.hibernate.ddl-auto: "create-drop"
 
 spring.data.neo4j.uri: "bolt://neo4j:7687"
 spring.data.neo4j.username: "neo4j"
