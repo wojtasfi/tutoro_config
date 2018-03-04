@@ -20,6 +20,8 @@ logging.level.com.thoughtmechanix: "DEBUG"
 
 kafka.bootstrapAddress: "kafkaserver:9092"
 
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: "false"
+
 security:
   oauth2:
    resource:
