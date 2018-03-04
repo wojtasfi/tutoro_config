@@ -1,6 +1,8 @@
 zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.tutoroservice.path: /tutoroservice/**
+zuul.routes.graph-relation-service.path: /graph-relation-service/**
+zuul.routes.recommendation-service.path: /recommendation-service/**
 zuul.routes.authentication-service.path: /auth/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
